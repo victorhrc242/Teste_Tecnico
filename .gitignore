@@ -1,0 +1,62 @@
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### Ambientes Virtuais ###
+venv/
+VENV/
+env.bak/
+venv.bak/
+.venv/
+
+### Selenium / Scraper (Crucial) ###
+# Ignora o perfil do Chrome com seus dados e cookies
+chrome_profile/
+# Ignora logs do Selenium e do Driver
+ghostdriver.log
+chromedriver.log
+geckodriver.log
+
+### Arquivos de Dados e Temporários ###
+# Ignora arquivos de upload temporários
+data/original_upload.xlsx
+# Se quiser que a pasta data exista no Git mas fique vazia, não ignore a pasta toda,
+# apenas os arquivos dentro dela (opcional)
+# data/*
+# !data/.gitkeep
+
+### Outputs do Scraper ###
+# Opcional: Ignorar a planilha final se você quiser que o avaliador a gere do zero
+# worten_final.xlsx
+
+### IDEs e Editores ###
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+### Variáveis de Ambiente ###
+.env
+.flaskenv
