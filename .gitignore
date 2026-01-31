@@ -41,10 +41,7 @@ geckodriver.log
 ### Arquivos de Dados e Temporários ###
 # Ignora arquivos de upload temporários
 data/original_upload.xlsx
-# Se quiser que a pasta data exista no Git mas fique vazia, não ignore a pasta toda,
-# apenas os arquivos dentro dela (opcional)
-# data/*
-# !data/.gitkeep
+data/worten.xlsx   # <-- agora ignorando a planilha de entrada
 
 ### Outputs do Scraper ###
 # Opcional: Ignorar a planilha final se você quiser que o avaliador a gere do zero
